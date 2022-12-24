@@ -1,35 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 html {
-    background: #350040;
+    background: #020214;
     color: white;
     font-family: Roboto;
     font-size: 20px;
 }
 
 header {
-    background: #b72fd4;
-    color: #350040;
+    background: #0983ed;
+    color: #020214;
     margin: 20px 10px;
 }
 
 header h1 {
-    margin: 10px 10px;
+    margin: 5px 5px;
     display: inline-block;
 }
 
 header h2 {
     font-size: 25px;
+    margin: 5px 2px;
     display: inline-block;
+}
+
+.header-links {
+    position:relative;
+    float: right;
+    top: 15px;
 }
 
 main {
     margin: 10px;
 }
 
+#projects h1 {
+    margin: 0px 4px;
+}
+
 #projects article {
-    border: dotted black 2px;
-    width: 300px;
+    border: dotted #0983ed 2px;
+    width: 400px;
     padding: 10px;
     margin: 10px;
     display: inline-block;
@@ -42,7 +53,7 @@ a {
 
 footer {
     color: #808080;
-    background-color: #350040;
+    background-color: #020214;
     font-size: 10px;
     position: fixed;
     bottom: 0;
